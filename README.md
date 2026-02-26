@@ -38,6 +38,14 @@ Resultados observados:
 - Quick Sort e Merge Sort tiveram melhor desempenho.
 - Shell Sort apresentou desempenho intermediário.
 
+- Para compilar no terminal:
+
+gcc main.c bubble_sort.c selection_sort.c insertion_sort.c quick_sort.c merge_sort.c shell_sort.c -o sorting
+
+Para executar:
+
+./sorting
+
 Conclusão
 
 - Os testes demonstram a diferença de complexidade entre algoritmos O(n²) e O(n log n), evidenciando a importância da escolha adequada do método de ordenação dependendo do tamanho do conjunto de dados.
